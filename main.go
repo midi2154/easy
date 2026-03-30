@@ -94,4 +94,45 @@ func main() {
 }
 
 
+//////KILOGRAM TO GRAM
+	KILOGRAM TO GRAM
+
+package main
+
+import "fmt"
+
+func kgToG(kg float64) float64 {
+	return kg * 1000
+}
+
+func gToKg(g float64) float64 {
+	return g / 1000
+}
+
+func main() {
+	fmt.Println(kgToG(2))   // 2000
+	fmt.Println(gToKg(500)) // 0.5
+}
+
+////TEMPERATURE
+	TEMPERATURE
+
+package main
+
+import "fmt"
+
+func cToF(c float64) float64 {
+	return (c * 9/5) + 32
+}
+
+func fToC(f float64) float64 {
+	return (f - 32) * 5/9
+}
+
+func main() {
+	fmt.Println(cToF(25))  // 77
+	fmt.Println(fToC(77))  // 25
+}
+
+
 
