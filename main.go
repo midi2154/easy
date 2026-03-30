@@ -57,6 +57,21 @@ func palindrom(word string) string {
 	return reversed
 }
 
+
+ORRRRRRRRRRR TO MAKE IT PRINT TRUE OR FALSE
+
+// palindrome
+
+func isPalindrome(s string) bool {
+	for i := 0; i < len(s)/2; i++ {
+		if s[i] != s[len(s)-1-i] {
+			return false
+		}
+	}
+	return true
+}
+
+
 ///METER TO KM AND BACK
 
 package main
